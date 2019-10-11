@@ -1,5 +1,5 @@
 # Packages to install
-load.lib < -c("caret", "dplyr", "forcats", "ggplot2", "gridExtra", "lubridate",
+load.lib <- c("caret", "dplyr", "forcats", "ggplot2", "gridExtra", "lubridate",
 "purrr", "readxl", "stringr", "tidyr", "XLConnect", "xlsReadWrite")
 
 # Subset only non-installed packages:
