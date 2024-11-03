@@ -1,6 +1,5 @@
 # Packages to install
-want.packages <- c("caret", "dplyr", "forcats", "ggplot2", "gridExtra", "lubridate",
-"purrr", "readxl", "stringr", "tidyr", "writexl", "xlsx")
+want.packages <- c("caret", "tidyverse", "gridExtra", "lubridate", "writexl", "readxl", "mlr3")
 
 # Subset of non-installed packages:
 install.lib <- want.packages[!want.packages %in% installed.packages()[,"Package"]]
